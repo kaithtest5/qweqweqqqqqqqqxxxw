@@ -1,0 +1,4 @@
+runtime: python
+startCommand: python app.py
+buildCommand: gunicorn -p 8080 app:app
+port: 8080
